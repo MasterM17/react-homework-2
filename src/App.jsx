@@ -56,7 +56,7 @@ export function App() {
     },
   ];
   return (
-    <div id="app">
+    <div id="app" className="main-container">
       <h1>IMDb top Filmovi</h1>
       <Filmovi filmovi={movies}></Filmovi>
     </div>

@@ -1,3 +1,12 @@
+.main-container {
+    display: grid;
+    grid-template-rows: 2fr;
+    gap: 1em;
+    justify-items: center;
+   
+}
+
+
 .card-filmovi {
   border: 1px solid #ccc;
   margin: 10px;
@@ -6,6 +15,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: rgba(4, 4, 46, 0.795);
+  color: white;
 }
 
 img {
